@@ -16,6 +16,7 @@
 		6F2607B61EF6336C00835270 /* webrtcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2607B51EF6336C00835270 /* webrtcTests.swift */; };
 		6F2607C11EF6336C00835270 /* webrtcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2607C01EF6336C00835270 /* webrtcUITests.swift */; };
 		6F2607CF1EF6347C00835270 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2607CE1EF6347C00835270 /* ChatViewController.swift */; };
+		6F2607D71EF63CD300835270 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2607D61EF63CD300835270 /* Util.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		6F2607C21EF6336C00835270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F2607CE1EF6347C00835270 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		6F2607D31EF636C500835270 /* webrtc-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "webrtc-Bridging-Header.h"; sourceTree = "<group>"; };
+		6F2607D61EF63CD300835270 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		745FFB281AC5367AB7E39095 /* Pods-webrtc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webrtc.release.xcconfig"; path = "Pods/Target Support Files/Pods-webrtc/Pods-webrtc.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,6 +125,7 @@
 				6F2607A91EF6336C00835270 /* LaunchScreen.storyboard */,
 				6F2607A41EF6336C00835270 /* Main.storyboard */,
 				6F2607D31EF636C500835270 /* webrtc-Bridging-Header.h */,
+				6F2607D61EF63CD300835270 /* Util.swift */,
 			);
 			path = webrtc;
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 				6F2607A31EF6336C00835270 /* ViewController.swift in Sources */,
 				6F2607CF1EF6347C00835270 /* ChatViewController.swift in Sources */,
 				6F2607A11EF6336C00835270 /* AppDelegate.swift in Sources */,
+				6F2607D71EF63CD300835270 /* Util.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +503,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 15556A442CAFE8C7E5F11F77 /* Pods-webrtc.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 23WT7ZRGJZ;
@@ -517,6 +522,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 745FFB281AC5367AB7E39095 /* Pods-webrtc.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 23WT7ZRGJZ;
